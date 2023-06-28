@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+@layer base {
+    html {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .button-animate {
+        position: absolute;
+        z-index: 0;
+        top: 10px;
+        right: -13px;
+        left: 13px;
+        bottom: -13px;
+        @apply  rounded-full;
+    
+      }
+
+      .sec1-bg{
+
+
+        background-image:url('../src/assets/images/HeroLeftBlob.svg');
+      
+        background-repeat: no-repeat;
+       
+        background-size: 51%;
+      
+        background-position: right;
+
+        
+    
+      }
+      .sec1-balls{
+
+
+        background-image:url('../src/assets/images/HeroOverlayCircles.svg');
+      
+        background-repeat: no-repeat;
+       
+        background-size: 44%;
+      
+        background-position:  right;
+
+      }
+    
+      .Over-bg{
+
+
+        background-image:url('../src/assets/images/OverviewTopLeft.svg'), url('../src/assets/images/OverviewBottomRight.svg');
+      
+        background-repeat: no-repeat;
+       
+        background-size: 33%,20%;
+      
+        background-position:  Top left, bottom right;
+        
+      
+      
+      
+      }
+     
+
+      
+}
+
